@@ -1,0 +1,54 @@
+.bg-container{
+    height: 200px;
+}
+
+.blog-post{
+    position: relative;
+}
+
+.category-banner{
+    background-image: url(pics/category-banner.jpg);
+    height: 200px;
+    position: absolute;
+}
+
+.blog-post-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50px;
+}
+
+.category-wrapper{
+    margin: 40px 0px;
+}
+
+.like{
+    top: 10px;
+    font-weight: bold;
+}
+
+.eye{
+    top: 90px;
+    background-color: black;
+}
+
+.cart{
+    top: 81%;
+    background-color:  #f76b6a;
+}
+
+.like, .eye, .cart{
+    position: absolute;
+    right: 10px;
+}
+
+.eye, .cart{
+    font-weight: bold;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2px;
+}

@@ -1,0 +1,43 @@
+.bg-container{
+    height: 200px;
+}
+
+.blog-post{
+    position: relative;
+}
+
+.category-banner{
+    background-image: url(pics/category-banner.jpg);
+    height: 200px;
+    position: absolute;
+}
+
+.blog-post-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50px;
+}
+
+.blog-post-text h2{
+    font-weight: 600;
+}
+
+.blog-gift-img-wrapper{
+    text-align: center;
+}
+
+.blog-gift-img{
+    width: 50%;
+    height: 50%;
+}
+
+.wrapper-blog{
+    margin-bottom: 50px;
+}
+
+.blog-gift-container{
+    box-shadow: 0.5px 0.5px 2px 2px rgb(180, 180, 180);
+    border-radius: 20px;
+    margin-top: 20px;
+}
