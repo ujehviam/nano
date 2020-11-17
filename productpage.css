@@ -1,6 +1,5 @@
 .product-wrapper{
-    width: 960px;
-    margin: 0px auto 80px;
+    margin: 0px auto 30px;
 }
 
 .product-wrapper-1{
@@ -51,7 +50,7 @@
     padding: 0px 3px;
 }
 
-.box-2-button{
+.checkout-box-2-button{
     background-color: #f76b6a;
     border: none;
     height: 30px;

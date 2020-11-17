@@ -1,20 +1,21 @@
-.box-1{
+.checkout-box-1{
     height: 270px;
     width: 750px;
 }
 
-.box-2{
+.checkout-box-2{
     height: 150px;
     width: 300px;
     padding: 5px 20px;
 }
 
-.box-1, .box-2{
+.checkout-box-1, .checkout-box-2{
     background-color: rgb(192, 191, 191);
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .checkout-wrapper{
@@ -65,7 +66,7 @@
     padding: 0px 3px;
 }
 
-.box-2-button{
+.checkout-box-2-button{
     background-color: #f76b6a;
     border: none;
     height: 30px;
@@ -73,5 +74,5 @@
     width: 260px;
     font-weight: bold;
     color: white;
-    margin: 40px 0px 10px;
+    margin: 40px 0px 40px;
 }
