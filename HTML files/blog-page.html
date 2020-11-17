@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Blog Page</title>
+</head>
+<body>
+    <header class="header" style="line-height: 50px;">
+        <div class="container">
+            <span class="text-light header-text">Prefer to talk? call us on 0816811765</span>
+            <i class="fab fa-instagram bg-light icon-sm-design icon-sm" style="line-height: 30px;"></i>
+            <i class="fab fa-linkedin bg-light icon-sm-design icon-sm" style="line-height: 30px;"></i>
+            <i class="fab fa-twitter bg-light icon-sm-design icon-sm" style="line-height: 30px;"></i>
+            <i class="fab fa-facebook-f bg-light icon-sm-design icon-sm" style="line-height: 30px;"></i>
+        </div>
+    </header>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <span class="menu-icon-button" id="menu-icon-button" onclick="open()"><i class="fas fa-bars"></i></span>
+            <img src="pics/logo color.png" class="logo" alt="logo">
+            <div style="float: right;">
+            <input type="search" name="search" id="search" placeholder="search..." >
+            <span ><i class="fas fa-user-alt icon-sm-design"></i></span>
+            <span ><i class="far fa-heart icon-sm-design"></i></span>
+            <span ><i class="fas fa-shopping-cart icon-sm-design"></i></span></div>
+        </div>
+    </div>
+    <div id="menu-wrapper">
+        <div><button class="menu-button" id="menu-button">MENU</button><button class="menu-button" id="category-button">CATEGORIES</button></div>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">CUSTOMIZE YOUR GIFT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">FAVOURITE</a></li>
+                <li><a href="">SIGN UP</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="blog-bg-container">
+        <div class="blog-post">
+            <div class="bg-image category-banner"></div>
+            <div class="blog-post-text">
+                <h2>BLOG</h2>
+                <p>Trend | Experience | Concept | Gears |</p>
+                <p> Innovations | Happenings | The Act | The Art |</p>
+                <p> The Love</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-wrapper">
+        <div class="container blog-gift-container">
+            <div class="blog-gift-img-wrapper"><img src="pics/blog-gift.jpeg" class="blog-gift-img" alt=""></div>
+            <div>
+                <h3>Why Choose HamperbyMJ?</h3>
+                <h6>Blog Description or content of blog post</h6>
+                <p class="lead">By Admin @ 20-oct-2020 7am</p>
+            </div>
+        </div>
+        <div class="container blog-gift-container">
+            <div class="blog-gift-img-wrapper"><img src="pics/blog-gift.jpeg" class="blog-gift-img" alt=""></div>
+            <div>
+                <h3>Why Choose HamperbyMJ?</h3>
+                <h6>Blog Description or content of blog post</h6>
+                <p class="lead">By Admin @ 20-oct-2020 7am</p>
+            </div>
+        </div>
+        <div class="container blog-gift-container">
+            <div class="blog-gift-img-wrapper"><img src="pics/blog-gift.jpeg" class="blog-gift-img" alt=""></div>
+            <div>
+                <h3>Why Choose HamperbyMJ?</h3>
+                <h6>Blog Description or content of blog post</h6>
+                <p class="lead">By Admin @ 20-oct-2020 7am</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <i class="fas fa-phone-alt icon-lg-design"><br><small class="small-text">08168117665</small></i>
+                <i class="fas fa-envelope icon-lg-design"><br><small class="small-text">example@gmail.com</small></i>
+                <i class="fas fa-map-marker-alt icon-lg-design"><br><small class="small-text">Address</small></i>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <div class="footer">
+                    <ul class="footer-ul row d-flex justify-content-around">
+                        <li class="footer-li ">ABOUT
+                            <ul class="footer-li-ul">
+                                <li class="footer-li-li">Our Story</li>
+                                <li class="footer-li-li">Awards</li>
+                                <li class="footer-li-li">Our Teams</li>
+                                <li class="footer-li-li">Career</li>
+                            </ul>
+                        </li>
+                        <li class="footer-li">COMPANY
+                            <ul>
+                                <li class="footer-li-li">Our Services</li>
+                                <li class="footer-li-li">Client</li>
+                                <li class="footer-li-li">Contact</li>
+                                <li class="footer-li-li">Press</li>
+                            </ul>
+                        </li>
+                        <li class="footer-li">RESOURCE
+                            <ul>
+                                <li class="footer-li-li">Blog</li>
+                                <li class="footer-li-li">Newsletter</li>
+                                <li class="footer-li-li">PrivacyPolicy</li>
+                                <li class="footer-li-li">Career</li>
+                            </ul>
+                        </li>
+                        <li class="footer-li">SUSCRIBE
+                            <ul>
+                                <li class="footer-li-li"><input type="search" placeholder="email address"></li>
+                                <small><p>Suscribe to get noctified on digital content</p></small>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center footer-icon">
+            <i class="fab fa-facebook-f bg-light icon-sm-design" style="line-height: 30px;"></i>
+            <i class="fab fa-twitter bg-light icon-sm-design" style="line-height: 30px;"></i>
+            <i class="fab fa-linkedin bg-light icon-sm-design" style="line-height: 30px;"></i>
+            <i class="fab fa-instagram bg-light icon-sm-design" style="line-height: 30px;"></i> 
+        </div>
+        <div class="row justify-content-center py-30">
+            <span class="text-light font-weight-bold">&copy;</span> 
+            <small class="text-light font-weight-bold">2020 All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>
